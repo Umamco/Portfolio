@@ -1,0 +1,67 @@
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Improve section spacing */
+section, header {
+    margin-bottom: 3rem;
+}
+
+/* Improve heading hierarchy */
+h1, h2, h3, h4, h5 {
+    color: #222;
+}
+
+/* Uniform section titles */
+h1.fw-bold, h2.fw-semibold {
+    margin-bottom: 1rem;
+}
+
+/* Space under paragraphs */
+p {
+    margin-bottom: 1rem;
+}
+
+/* Project card styling improvements */
+.card {
+    border-radius: 10px;
+}
+
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Navbar branding font */
+.navbar-brand {
+    font-size: 1.4rem;
+    letter-spacing: 0.5px;
+}
+
+/* Footer improvements */
+footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* Contact form spacing */
+form .form-control {
+    border-radius: 6px;
+    padding: 12px;
+}
+
+/* Prevent section contents touching edges on smaller screens */
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* Uniform project card images */
+.card-img-top {
+    width: 100%;
+    height: 220px;        /* uniform height for all cards */
+    object-fit: cover;    /* crop overflow while keeping proportions */
+    border-radius: 10px 10px 0 0;
+}
+

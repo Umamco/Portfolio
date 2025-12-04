@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- ABOUT HEADER -->
+<header class="mb-5">
+    <h1 class="fw-bold">About Me</h1>
+    <p class="fs-5 text-muted">A brief introduction and professional overview.</p>
+</header>
+
+<!-- PROFESSIONAL SUMMARY -->
+<section class="mb-5">
+    <h2 class="fw-semibold mb-3">Professional Summary</h2>
+    <p class="fs-5">
+        I am a motivated Python Developer with practical experience in building desktop applications,
+        GUI systems, data-driven tools, and automation scripts. My work spans Python, Tkinter,
+        Flask, MySQL, and modern development practices.
+        <br><br>
+        I focus on producing clean, functional, and user-friendly solutions. 
+        My background includes leadership, administration, and software projects that
+        demonstrate strong problem-solving, attention to detail, and continuous learning.
+    </p>
+</section>
+
+<!-- SKILLS GRID -->
+<section class="mb-5">
+    <h2 class="fw-semibold mb-3">Core Skills</h2>
+    <div class="row g-3">
+
+        <div class="col-md-4">
+            <div class="border rounded p-3">
+                <h5 class="fw-bold">Programming Languages</h5>
+                <ul class="mb-0">
+                    <li>Python</li>
+                    <li>JavaScript (beginner)</li>
+                    <li>HTML & CSS</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="border rounded p-3">
+                <h5 class="fw-bold">Frameworks & Tools</h5>
+                <ul class="mb-0">
+                    <li>Flask</li>
+                    <li>Tkinter / CustomTkinter</li>
+                    <li>Django (currently revisiting)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="border rounded p-3">
+                <h5 class="fw-bold">Databases</h5>
+                <ul class="mb-0">
+                    <li>MySQL</li>
+                    <li>SQLite</li>
+                    <li>JSON for local storage</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="mb-5">
+    <h2 class="fw-semibold mb-3">Experience</h2>
+
+    <div class="mb-4">
+        <h5 class="fw-bold">Software Development Projects</h5>
+        <ul>
+            <li>Meal Tip Calculator (Tkinter)</li>
+            <li>Password Generator (CLI)</li>
+            <li>Name Guessing Game (CustomTkinter)</li>
+            <li>Job Production Tracker (Tkinter + JSON storage)</li>
+            <li>Shallaco Electronics Inventory & POS System (Tkinter + MySQL)</li>
+        </ul>
+    </div>
+
+    <div class="mb-4">
+        <h5 class="fw-bold">Team Leadership & Administration</h5>
+        <p class="mb-0">
+            Over 6 years leading teams, managing daily operations, supervising staff,
+            analysing performance, maintaining reports, and ensuring efficient workflow.
+        </p>
+    </div>
+
+    <div>
+        <h5 class="fw-bold">General Manager – Paragon Foundation</h5>
+        <p class="mb-0">
+            Oversaw operations, coordinated projects, led administrative activities,
+            and implemented systems to improve productivity and organisational efficiency.
+        </p>
+    </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section class="mb-5">
+    <h2 class="fw-semibold mb-3">Certifications</h2>
+    <ul class="fs-5">
+        <li>Food Safety Level 2 – SafetyBug</li>
+        <li>Other certificates can be added as earned</li>
+    </ul>
+</section>
+
+<!-- CONTACT CTA -->
+<section class="text-center my-5">
+    <h3 class="fw-bold">Want to know more?</h3>
+    <p>Feel free to explore my projects or reach out directly.</p>
+    <a href="/contact" class="btn btn-primary btn-lg">Contact Me</a>
+</section>
+
+{% endblock %}

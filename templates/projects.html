@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- PAGE HEADER -->
+<header class="mb-5">
+    <h1 class="fw-bold">Projects</h1>
+    <p class="fs-5 text-muted">A selection of my work showcasing practical development skills.</p>
+</header>
+
+<!-- PROJECTS GRID -->
+<section class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+    <!-- PROJECT CARD 1 -->
+    <article class="col">
+        <div class="card h-100 shadow-sm">
+            <img src="{{ url_for('static', filename='images/tipcalc.png') }}" class="card-img-top" alt="Tip Calculator">
+            <div class="card-body">
+                <h5 class="card-title">Meal & Tip Calculator</h5>
+                <p class="card-text">
+                    A Tkinter desktop application that calculates meal tips with an interactive UI 
+                    and custom features for selecting meals and percentages.
+                </p>
+            </div>
+            <div class="card-footer bg-white border-0">
+                <a href="https://github.com/Umamco/TipsCalcRepo" target="_blank" class="btn btn-primary">View on GitHub</a>
+            </div>
+        </div>
+    </article>
+
+    <!-- PROJECT CARD 2 -->
+    <article class="col">
+        <div class="card h-100 shadow-sm">
+            <img src="{{ url_for('static', filename='images/pwdgen.png') }}" class="card-img-top" alt="Password Generator">
+            <div class="card-body">
+                <h5 class="card-title">Password Generator (CLI)</h5>
+                <p class="card-text">
+                    A secure password generator built in Python with ASCII-based randomization and 
+                    user-input transformation. Includes system clear and multi-mode support.
+                </p>
+            </div>
+            <div class="card-footer bg-white border-0">
+                <a href="https://github.com/Umamco/pwdGenerator" target="_blank" class="btn btn-primary">View on GitHub</a>
+            </div>
+        </div>
+    </article>
+
+    <!-- PROJECT CARD 3 -->
+    <article class="col">
+        <div class="card h-100 shadow-sm">
+            <img src="{{ url_for('static', filename='images/nameguess.png') }}" class="card-img-top" alt="Name Guessing Game">
+            <div class="card-body">
+                <h5 class="card-title">Name Guessing Game</h5>
+                <p class="card-text">
+                    A CustomTkinter desktop game featuring multiple categories, user registration, 
+                    hint system, timers, and JSON-based high score management.
+                </p>
+            </div>
+            <div class="card-footer bg-white border-0">
+                <a href="#" class="btn btn-primary" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+    </article>
+
+    <!-- PROJECT CARD 4 -->
+    <article class="col">
+        <div class="card h-100 shadow-sm">
+            <img src="{{ url_for('static', filename='images/production.png') }}" class="card-img-top" alt="Production Tracker">
+            <div class="card-body">
+                <h5 class="card-title">Job Production Tracker</h5>
+                <p class="card-text">
+                    A desktop app for monitoring jobs, staff, daily output, and performance metrics 
+                    with JSON storage. Designed for production management tasks.
+                </p>
+            </div>
+            <div class="card-footer bg-white border-0">
+                <a href="#" class="btn btn-primary" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+    </article>
+
+    <!-- PROJECT CARD 5 -->
+    <article class="col">
+        <div class="card h-100 shadow-sm">
+            <img src="{{ url_for('static', filename='images/electronics.png') }}" class="card-img-top" alt="Electronics Store POS">
+            <div class="card-body">
+                <h5 class="card-title">Electronics Store System</h5>
+                <p class="card-text">
+                    A business-grade Tkinter + MySQL application for managing products, inventory, 
+                    checkout, and customer transactions.
+                </p>
+            </div>
+            <div class="card-footer bg-white border-0">
+                <a href="#" class="btn btn-primary" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+    </article>
+
+</section>
+
+{% endblock %}
