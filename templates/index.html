@@ -1,3 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!-- HERO SECTION -->
+<header class="p-5 mb-4 bg-light rounded-3">
+    <div class="container py-5">
+        <h1 class="display-4 fw-bold">Hello, I'm Amin Umar</h1>
+        <p class="col-md-8 fs-5">
+            A passionate Python Developer focused on building clean, functional, 
+            and user-friendly applications. Welcome to my portfolio.
+        </p>
+        <a href="/projects" class="btn btn-primary btn-lg mt-3">View My Projects</a>
+    </div>
+</header>
+
 <!-- SKILLS SECTION -->
 <h2 class="fw-bold mb-4">Technical Skills</h2>
 
@@ -62,3 +77,13 @@
     </div>
 
 </section>
+
+
+<!-- CALL TO ACTION -->
+<footer class="text-center my-5">
+    <h3 class="fw-bold">Interested in working together?</h3>
+    <p class="mb-3">Feel free to reach out and connect.</p>
+    <a href="/contact" class="btn btn-outline-dark btn-lg">Contact Me</a>
+</footer>
+
+{% endblock %}
