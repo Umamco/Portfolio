@@ -45,7 +45,7 @@ def contact():
         # Create the email message
         msg = Message(
             subject=f"Portfolio Contact: New message from {name}",
-            recipients=["aminumar76@live.com"],
+            recipients=["umamco2026@gmail.com"],  # your receiving email
             body=f"Sender Name: {name}\nEmail: {email}\n\nMessage:\n{message_text}"
         )
 
